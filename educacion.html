@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hoja de vida / Educación</title>
+  </head>
+  <body>
+    <header >
+    <img src=".\Logos\logo.svg" alt="Logo" height="200px" width="300px">
+    </header>
+    <Section >
+      <h1>Hoja de vida</h1>
+      <h2>Datos personales</h2>
+      <h3>Nombres: Alberto, Emmanuel</h3>
+      <h3>Apellido: Botta</h3>
+      <h3>Fecha de Nacimiento: 05/10/1992</h3>
+     <ul>
+       <li><a href=".\index.html">Inicio</a></li>
+       <li><a href=".\educacion.html">Educación</a></li>
+       <li><a href=".\experiencia.html">Experiencia</a></li>
+     </ul>
+    </Section>
+    <Section>
+      <h2>Educación</h2>
+      <table border="1">
+        <tr>
+        <th>Año</th>
+        <th>Intitución</th>
+        <th>Título</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+      </tr>
+      <tr>
+        <td>2005-2010</td>
+        <td>Instituto Privado Olegario V. Andrade</td>
+        <td>Bachiller con orientacion a la administración de empresas</td>
+        <td>Córdoba</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>2011 - Actualidad</td>
+        <td>Universidad Técnilogica Nacional</td>
+        <td>Ingenieria en Sistemas</td>
+        <td>Córdoba</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>2017</td>
+        <td>Next U</td>
+        <td>Desarrollo Web</td>
+        <td>Córdoba</td>
+        <td>No</td>
+      </tr>
+      </table>
+    </Section>
+    <form class="" title="Agregar Estudios" method="post">
+
+            <h1>Agregar Estudios</h1>
+            <table>
+              <tr>
+                <td><label for="añoEstudio" id="lblAno">Año:</label></td>
+                <td>
+                  <select name="Año" id="sltAno">
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="0">Anterior</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>  <label for="InInstitucion" id="lblInstitucion">Institución</label> </td>
+                <td><input type="text" name="InputInstitucion"  id="InInstitucion"placeholder="Ingrese la institución..."></td>
+              </tr>
+              <tr>
+              <td><label for="InLugar">Lugar</label> </td>
+              <td>
+                <input type="text" name="InputLugar" id="InLugar" placeholder="Ingrese el lugar...">
+              </td>
+              </tr>
+              <tr>
+                <td><label for="">¿Culminó?</label></td>
+                <td>
+                <label for="rdoSi">Si</label>
+                <input type="radio" name="rdoCulm" value="1" id="rdoSi">
+                <label for="rdoNo">No</label>
+                <input type="radio" name="rdoCulm" value="0" id="rdoNo">
+                </td>
+              </tr>
+
+            </table>
+            <button type=" submit" name="btnEnviar">Enviar</button>
+    </form>
+    <footer>
+    <p>
+      <b>Email:</b> <a href="mailto:emmauelbotta007@gmail.com?subject=feedback">emmanuelbotta007@gmail.com</a> |
+      <b>Facebook: </b><a href="https://www.facebook.com/emmanuelbotta">Emmanuel Botta</a> |
+      <b>Twitter:</b><a href="https://twitter.com/emma_botta"></a> |
+    </p>
+    </footer>
+  </body>
+</html>
